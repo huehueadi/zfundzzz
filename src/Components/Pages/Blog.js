@@ -59,4 +59,45 @@ function Blog() {
                       <ul className="dz-badge-list">
                         <li>
                           <a href="javascript:void(0);" className="dz-badge">
-                       
+                            {blog.category}
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="blog-details.html" className="btn btn-secondary">Read More</a>
+                    </div>
+                    <div className="dz-info">
+                      <h5 className="dz-title">
+                        <a href="blog-details.html">{blog.title}</a>
+                      </h5>
+                      <p>{blog.description}</p>
+                      <div className="author-wrappper">
+                        <div className="author-media">
+                          <img
+                            src="assets/images/avatar/avatar2.jpg"
+                            alt="Author"
+                          />
+                        </div>
+                        <div className="author-content">
+                          <div className="author-head">
+                            <h6 className="author-name">Hawkins Junior</h6>
+                          </div>
+                          <ul className="author-meta">
+                            <li className="date">
+                              {new Date(blog.created_at).toLocaleDateString()}
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Blog;
