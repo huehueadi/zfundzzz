@@ -11,7 +11,7 @@ function Blog() {
     const fetchBlogs = async () => {
       try {
         // Replace the URL with the actual endpoint from which you are fetching the blog data
-        const response = await axios.get('http://localhost:7000/api/admin/view-all-blog');
+        const response = await axios.get('https://zfundz-backend.onrender.com/view-all-blog');
         
         
         if (response.data.success) {
