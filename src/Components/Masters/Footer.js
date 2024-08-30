@@ -9,7 +9,7 @@ function Footer() {
           <div className="col-xl-4 col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
             <div className="widget widget_about">
               <div className="footer-logo logo-white">
-                <a href="index.html"><img src="images/logo-white.png" alt /></a> 
+                <a href="index.html"><img src="/assets/images/zfundzLogo.png" alt /></a> 
               </div>
               <p>Akcel is a Crowdfunding &amp; Charity Website by DexignZone lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
               <div className="dz-social-icon style-1">
@@ -28,9 +28,8 @@ function Footer() {
               <ul>
                 <li><a href="how-it-works.html">How It Works</a></li>
                 <li><a href="ask-a-question.html">Ask A Question</a></li>
-                <li><a href="project-story.html">Project Story</a></li>
+                <li><a href="project-story.html">Our Blog</a></li>
                 <li><a href="mission.html">Mission</a></li>
-                <li><a href="certificates.html">Certificates</a></li>
                 <li><a href="terms-and-condition.html">Terms And Condition</a></li>
               </ul>
             </div>
@@ -39,9 +38,8 @@ function Footer() {
             <div className="widget widget_services">
               <h5 className="footer-title">Company</h5>
               <ul>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="volunteer.html">Volunteer</a></li>
-                <li><a href="happy-clients.html">Happy Clients</a></li>
+                <li><a href="volunteer.html">Properties</a></li>
+                <li><a href="happy-clients.html">Investment</a></li>
                 <li><a href="project.html">Project</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
                 <li><a href="faq.html">Faq</a></li>
@@ -54,7 +52,7 @@ function Footer() {
               <ul>
                 <li>
                   <i className="fas fa-map-marker-alt" />
-                  <span>832  Thompson Drive, San Fransisco CA 94107, United States</span>
+                  <span>Vidhan Sabha Marg, Lucknow</span>
                 </li>
                 <li>
                   <i className="fa-solid fa-phone" />
@@ -62,7 +60,7 @@ function Footer() {
                 </li>
                 <li>
                   <i className="fa fa-envelope" /> 
-                  <span>support@gmail.com</span>
+                  <span>support@zfundz.com</span>
                 </li>
               </ul>
             </div>
@@ -90,7 +88,7 @@ function Footer() {
     <div className="footer-bottom">
       <div className="container">
         <div className="text-center"> 
-          <span className="copyright-text">Copyright © 2024 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span> 
+          <span className="copyright-text">Copyright © 2024 <a href="https://dexignzone.com/" target="_blank">ZFUNDZ</a>. All rights reserved.</span> 
         </div>
       </div>
     </div>

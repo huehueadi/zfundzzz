@@ -107,17 +107,18 @@ function Investment() {
       </section>
 
       {/* Get Started Today Section */}
-      <section className="content-inner-2 bg-primary text-white">
-        <div className="container text-center">
-          <h5 className="sub-title">Get Started Today</h5>
-          <h2>Sign Up for Our Services</h2>
-          <p className="m-t20">
-            Easy steps to register and start investing. Contact us for more information, support, and consultation details.
-          </p>
-          <a href="sign-up.html" className="btn btn-light m-r30">Sign Up</a>
-          <a href="contact.html" className="btn btn-outline-light">Contact Us</a>
-        </div>
-      </section>
+      <section className="content-inner-2 bg-primary text-white pt-5 pb-5">
+  <div className="container text-center">
+    <h5 className="sub-title">Get Started Today</h5>
+    <h2>Sign Up for Our Services</h2>
+    <p className="mt-3">
+      Easy steps to register and start investing. Contact us for more information, support, and consultation details.
+    </p>
+    <a href="sign-up.html" className="btn btn-light me-3">Sign Up</a>
+    <a href="contact.html" className="btn btn-outline-light">Contact Us</a>
+  </div>
+</section>
+
 
       {/* Success Stories Section */}
       <section className="content-inner">
