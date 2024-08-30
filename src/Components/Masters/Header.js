@@ -145,7 +145,7 @@
 
 
 import Cookies from 'js-cookie';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
@@ -158,6 +158,17 @@ function Header() {
 
   // Function to check if the current link is active
   const isActive = (path) => location.pathname === path;
+
+  useEffect(() => {
+    // Close the navbar when the route changes
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    if (navbarToggler) {
+      const collapse = document.querySelector('#navbarNavDropdown');
+      if (collapse.classList.contains('show')) {
+        navbarToggler.click(); // This triggers the collapse
+      }
+    }
+  }, [location]);
 
   return (
     <header className="site-header mo-left header style-2">
@@ -244,6 +255,3 @@ function Header() {
 }
 
 export default Header;
-
-
-
