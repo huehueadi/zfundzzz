@@ -18,7 +18,7 @@ function HomePage() {
       <div className="col-lg-6 align-self-center">
         <div className="section-head m-b30">
           <h2 className="title">What Is Zfundz ?</h2>
-          <p>ZFUNDZ is a fractional investing platform that allows individuals to diversify their portfolios by owning shares in high-value business opportunities. Through crowdfunding, ZFUNDZ makes these investments accessible to a broader range of investors, offering potential for long-term growth and passive income.</p>
+          <p>ZFUNDZ is a fractional investing platform that allows individuals to diversify their portfolios by owning shares in high-value business opportunities.</p>
         </div>
         <div className="accordion dz-accordion accordion-sm" id="accordionFaq1">
           <div className="accordion-item">
@@ -65,10 +65,13 @@ yourself.</p>
         </div>
       </div>
       <div className="col-lg-6 order-lg-2 order-1 m-b30">
-        <div className="dz-media split-box rounded">
-          <img src="assets/images/project/pic3.jpg" alt="FAQ Image" />
-        </div>
-      </div>
+  <div className="dz-media  rounded">
+    <video width="100%" height="auto" controls>
+      <source src="/assets/images/What.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
     </div>
   </div>
 </section>
@@ -246,46 +249,57 @@ yourself.</p>
       <p>ZFUNDZ offers shares in a diverse array of businesses, leveraging joint ownership to generate passive income for retail investors.</p>
     </div>
     <div className="row">
+    <div className="col-xl-3 col-sm-6">
+  <div className="icon-bx-wraper style-1 text-center m-b30">
+    <div className="icon-lg m-b30">
+      <a href="services-details.html" className="icon-cell">
+        <img src="/assets/images/coworking.png" alt="Real Estate" />
+      </a>
+    </div>
+    <div className="icon-content">
+      <h5 className="dz-tilte text-capitalize">
+        <a href="services-details.html">Co-Working</a>
+      </h5>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+    </div>
+  </div>
+</div>
+
       <div className="col-xl-3 col-sm-6">
         <div className="icon-bx-wraper style-1 text-center m-b30">
-          <div className="icon-lg m-b30"> <a href="services-details.html" className="icon-cell">
-          <i className="fa fa-home"/>
-            </a> </div>
+        <div className="icon-lg m-b30">
+      <a href="services-details.html" className="icon-cell">
+        <img src="/assets/images/831618.png" alt="Real Estate" />
+      </a>
+    </div>
           <div className="icon-content">
-            <h5 className="dz-tilte text-capitalize"><a href="services-details.html">Real Estate</a></h5>
+            <h5 className="dz-tilte m-b5 text-capitalize"><a href="services-details.html">Gaming</a></h5>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
           </div>
         </div>
       </div>
       <div className="col-xl-3 col-sm-6">
         <div className="icon-bx-wraper style-1 text-center m-b30">
-          <div className="icon-lg m-b30"> <a href="services-details.html" className="icon-cell">
-              <i className="flaticon-open-book" />
-            </a> </div>
+        <div className="icon-lg m-b30">
+      <a href="services-details.html" className="icon-cell">
+        <img src="/assets/images/hotel.png" alt="Real Estate" />
+      </a>
+    </div>
           <div className="icon-content">
-            <h5 className="dz-tilte m-b5 text-capitalize"><a href="services-details.html">Education</a></h5>
+            <h5 className="dz-tilte m-b5 text-capitalize"><a href="services-details.html">She-Stays</a></h5>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
           </div>
         </div>
       </div>
       <div className="col-xl-3 col-sm-6">
         <div className="icon-bx-wraper style-1 text-center m-b30">
-          <div className="icon-lg m-b30"> <a href="services-details.html" className="icon-cell">
-              <i className="flaticon-raw-food" />
-            </a> </div>
+        <div className="icon-lg m-b30">
+      <a href="services-details.html" className="icon-cell">
+        <img src="/assets/images/nightlife.png" alt="Real Estate" />
+      </a>
+    </div>
           <div className="icon-content">
-            <h5 className="dz-tilte m-b5 text-capitalize"><a href="services-details.html">Food & Beverrages</a></h5>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-xl-3 col-sm-6">
-        <div className="icon-bx-wraper style-1 text-center m-b30">
-          <div className="icon-lg m-b30"> <a href="services-details.html" className="icon-cell">
-              <i className="flaticon-doctor-bag" />
-            </a> </div>
-          <div className="icon-content">
-            <h5 className="dz-tilte m-b5 text-capitalize"><a href="services-details.html">Medical</a></h5>
+            <h5 className="dz-tilte m-b5 text-capitalize"><a href="services-details.html">Zoto Club</a></h5>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
           </div>
         </div>
@@ -445,7 +459,7 @@ yourself.</p>
                       <span className="testimonial-position">Community Engagement</span>
                     </div>
                   </div>
-                </div>
+ ƒ               </div>
               </div>
             </div>
             <div className="swiper-slide">

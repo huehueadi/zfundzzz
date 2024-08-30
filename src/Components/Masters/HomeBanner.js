@@ -33,7 +33,7 @@ function HomeBanner() {
           <div className="col-lg-6 col-md-12">
             <div className="banner-media">
               <video className="w-100" autoPlay loop muted>
-                <source src="/assets/images/video.mp4" type="video/mp4" allowFullScreen />
+                <source src="/assets/images/B1.mp4" type="video/mp4" allowFullScreen />
               </video>
             </div>
           </div>
