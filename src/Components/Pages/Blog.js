@@ -11,7 +11,7 @@ function Blog() {
     const fetchBlogs = async () => {
       try {
         // Use the deployed backend URL
-        const response = await axios.get('https://zfundzz-backend.onrender.com/api/admin/view-all-blog');
+        const response = await axios.get('https://zfundz-backend.onrender.com/api/admin/view-all-blog');
         
         if (response.data.success) {
           setBlogs(response.data.blogView);
