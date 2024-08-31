@@ -11,7 +11,7 @@ const Login = () => {
         const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:7000/api/login', { email, password }, { withCredentials: true });
+            const response = await axios.post('https://zfundz-backend.onrender.com/api/login', { email, password }, { withCredentials: true });
                         if (response.data.success) {
                 Cookies.set('token', response.data.token, { expires: 1 }); 
                 alert('Login successful!');
