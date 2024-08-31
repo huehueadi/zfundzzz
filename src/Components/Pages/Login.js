@@ -21,8 +21,8 @@ const Login = () => {
             if (err.response && err.response.data) {
                 setError(err.response.data.message);
             } else {
-                setError('An error occurred. Please try again.');
-            }
+                setError('An error occurred.');
+            } 
         }
     };
 
