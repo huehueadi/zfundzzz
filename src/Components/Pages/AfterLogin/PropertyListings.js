@@ -9,7 +9,7 @@ function PropertyListings() {
   useEffect(() => {
     const fetchProperties = async () => {
       try {
-        const response = await axios.get('http://localhost:7000/api/admin/viewAll-property');
+        const response = await axios.get('https://zfundz-backend.onrender.com/api/admin/viewAll-property');
         setProperties(response.data);
       } catch (error) {
         console.log('Error while fetching properties', error);
