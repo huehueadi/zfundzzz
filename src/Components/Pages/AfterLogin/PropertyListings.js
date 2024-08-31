@@ -12,7 +12,7 @@ function PropertyListings() {
         const response = await axios.get('https://zfundz-backend.onrender.com/api/admin/viewAll-property');
         setProperties(response.data);
       } catch (error) {
-        console.log('Error while fetching properties', error);
+        console.log('Error while fetching property', error);
       }
     };
     fetchProperties();
